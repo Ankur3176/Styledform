@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paisa kharcha kro frands</title>
+    <link rel="stylesheet" href="../web pages/CSS/styleform.css">
+</head>
+<body>
+    <div class="container">
+    <form action="">
+    <h1 class="main_heading">Payment form</h1>
+    <hr>
+    <h2>Contact details</h2>
+    <p>
+    Name <input type="text" name="name" placeholder="Akshay Kumar" id="" required>
+    </p>
+    <p>
+        <fieldset>
+            <legend>Gender</legend>
+            male <input type="radio" name="gender" id="" required>
+            female <input type="radio" name="gender" id="" required >
+        </fieldset>
+    </p>
+        <p>
+        Address <textarea name="address" id="" cols="30" rows="10"></textarea> 
+       </p>
+        <p>
+        Email <input type="email" name="email" id="">
+        </p>
+        <p>
+        Mobile number <input type="number" name="mobile" id="" required>
+        </p>
+        <h2 class="main_heading">Payment details</h2>
+        <p>
+            Card type
+            <select name="cardtype" id="" required>
+                <option value="">--select a card type--</option>
+                <option value="visa">Visa</option>
+                <option value="rupay">Rupay</option>
+                <option value="mastercard">Mastercard</option>
+            </select>
+        </p>
+        <p>
+            Expiration date <input type="date" name="expdate" id="" required>
+        </p>
+        <p>
+            CVV <input type="password" name="cvv" id="" required>
+        </p>
+        <input type="submit" class="submit" value="Pay now" >
+
+
+    </form>
+</div>
+</body>
+</html>
